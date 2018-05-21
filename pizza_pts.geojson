@@ -1,4 +1,4 @@
-{
+geojson = {
   "features": [
     {
       "type": "Feature",
@@ -63,4 +63,8 @@
     }
   ],
   "type": "FeatureCollection"
-}
+};
+
+
+<script type="text/javascript" src='pizza_map.js'></script>
+<script type="text/javascript" src="pizza_pts.geojson"></script>

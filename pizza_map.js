@@ -9,58 +9,14 @@ var map = new mapboxgl.Map({
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
+// Ajax call to local geojson
+$(document).ready(function(e){
+        $.ajax({url: "http://localhost:8000/pizza_pts.json", success: function(result){
+            var geojson = result;
+        }});
+});
 
-// create geojson for pizza location map markers
-var geojson = {
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "address": "37 Yerba Buena Lane, San Francisco, California 94103, United States",
-        "place_name": "Delarosa"
-      },
-      "geometry": {
-        "coordinates": [
-          -122.40439,
-          37.785396
-        ],
-        "type": "Point"
-      },
-      "id": "address.1047900515756646"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "address": "4042 24th Street, San Francisco, California 94114, United States",
-        "place_name": "Paxti's Pizza"
-      },
-      "geometry": {
-        "coordinates": [
-          -122.43287,
-          37.751612
-        ],
-        "type": "Point"
-      },
-      "id": "address.4490842138254994"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "address": "680 2nd Street, San Francisco, California 94107, United States",
-        "place_name": "Slice House"
-      },
-      "geometry": {
-        "coordinates": [
-          -122.39123,
-          37.780697
-        ],
-        "type": "Point"
-      },
-      "id": "address.6404482400250856"
-    },
-  ],
-  "type": "FeatureCollection"
-}
+
 
 // add markers to map
 geojson.features.forEach(function(marker) {
