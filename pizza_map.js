@@ -6,6 +6,11 @@ var map = new mapboxgl.Map({
     zoom: 12 // starting zoom
 });
 
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
+
+
+// create geojson for pizza location map markers
 var geojson = {
   "features": [
     {
@@ -53,22 +58,6 @@ var geojson = {
       },
       "id": "address.6404482400250856"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "short_code": "CA-NT",
-        "wikidata": "Q2007",
-        "place_name": "Northwest Territories, Canada"
-      },
-      "geometry": {
-        "coordinates": [
-          -127.589407,
-          69.613523
-        ],
-        "type": "Point"
-      },
-      "id": "region.3425"
-    }
   ],
   "type": "FeatureCollection"
 }
@@ -77,11 +66,13 @@ var geojson = {
 geojson.features.forEach(function(marker) {
 
   // create a HTML element for each feature
-  var el = document.createElement('div');
-  el.className = 'marker';
+  var pizzaMarker = document.createElement('div');
+  pizzaMarker.className = 'marker';
 
   // make a marker for each feature and add to the map
-  new mapboxgl.Marker(el)
+  new mapboxgl.Marker(pizzaMarker)
   .setLngLat(marker.geometry.coordinates)
+  .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+  .setHTML('<h3>' + marker.properties.place_name + '</h3><p>' + marker.properties.address + '</p>'))
   .addTo(map);
 });
