@@ -9,6 +9,10 @@ var map = new mapboxgl.Map({
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
+map.addControl(new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken
+}));
+
 // Ajax call to local geojson
 $(document).ready(function(e){
         $.getJSON({url: "http://localhost:8000/pizza_pts.json",
