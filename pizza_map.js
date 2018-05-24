@@ -9,6 +9,7 @@ var map = new mapboxgl.Map({
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
+// add geocode search controls to the map.
 map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken
 }));
@@ -28,7 +29,7 @@ var geojson = {
     {
       "type": "Feature",
       "properties": {
-        "address": "37 Yerba Buena Lane, San Francisco, California 94103, United States",
+        "address": "37 Yerba Buena Lane, San Francisco, California 94103",
         "place_name": "Delarosa"
       },
       "geometry": {
@@ -43,7 +44,7 @@ var geojson = {
     {
       "type": "Feature",
       "properties": {
-        "address": "4042 24th Street, San Francisco, California 94114, United States",
+        "address": "4042 24th Street, San Francisco, California 94114",
         "place_name": "Paxti's Pizza"
       },
       "geometry": {
@@ -58,7 +59,7 @@ var geojson = {
     {
       "type": "Feature",
       "properties": {
-        "address": "680 2nd Street, San Francisco, California 94107, United States",
+        "address": "680 2nd Street, San Francisco, California 94107",
         "place_name": "Slice House"
       },
       "geometry": {
@@ -82,6 +83,23 @@ var geojson = {
         "coordinates": [
         -122.4218,
         37.797497
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1411 Polk St, San Francisco, CA 94109",
+        "place_name": "Victor's Pizza",
+        "region": "Nob Hill"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4208,
+        37.7899
         ],
         "type": "Point"
       },

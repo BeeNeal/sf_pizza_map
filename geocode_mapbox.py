@@ -1,4 +1,4 @@
-# from mapbox import Geocoder
+from mapbox import Geocoder
 import requests
 
 access_token = 'pk.eyJ1IjoiYmVlbmVhbCIsImEiOiJjamRqdXdkd3UxMzB2MndvNmkwbGIzZmllIn0.xVy7VGtquOc7rUUpRz-KaQ';
