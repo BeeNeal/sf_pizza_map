@@ -104,6 +104,23 @@ var geojson = {
         "type": "Point"
       },
       "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "300 Connecticut St, San Francisco, CA 94107",
+        "place_name": "Goat Hill Pizza",
+        "region": "Potrero Hill"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.3977,
+        37.7624,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
     }
   ],
   "type": "FeatureCollection"
