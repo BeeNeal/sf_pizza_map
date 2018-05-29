@@ -121,6 +121,23 @@ var geojson = {
         "type": "Point"
       },
       "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "509 Valencia St, San Francisco, CA 94110",
+        "place_name": "Arinell Pizza",
+        "region": "Mission"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4217,
+        37.7647,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
     }
   ],
   "type": "FeatureCollection"
