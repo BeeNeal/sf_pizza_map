@@ -19,3 +19,23 @@ body { margin:0; padding:0; }
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+
+.search {
+  height:1000px;
+}
+
+/*     "type": "Feature",
+      "properties": {
+        "address": "1411 Polk St, San Francisco, CA 94109",
+        "place_name": "Victor's Pizza",
+        "region": "Russian Hill"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4218,
+        37.797497
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"*/
