@@ -156,6 +156,23 @@ var geojson = {
         "type": "Point"
       },
       "id": "region.3425"
+    },
+          {
+      "type": "Feature",
+      "properties": {
+        "address": "211 23rd Ave, San Francisco, CA 94121",
+        "place_name": "Pizzetta 211",
+        "region": "Outer Richmond"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.482973,
+        37.783682,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
     }
   ],
   "type": "FeatureCollection"
