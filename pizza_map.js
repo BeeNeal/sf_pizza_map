@@ -123,6 +123,24 @@ var geojson = {
       "id": "region.3425"
     },
     {
+       "type": "Feature",
+      "properties": {
+        "address": "3299 Mission St San Francisco, CA 94110",
+        "cross": "Valencia St & 29th St Bernal Heights",
+        "place_name": "PizzaHacker",
+        "region": "Bernal Heights"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4205456,
+        37.7440626
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+    {
       "type": "Feature",
       "properties": {
         "address": "509 Valencia St, San Francisco, CA 94110",
