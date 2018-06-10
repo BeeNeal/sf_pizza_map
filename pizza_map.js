@@ -29,17 +29,36 @@ var geojson = {
     {
       "type": "Feature",
       "properties": {
-        "address": "37 Yerba Buena Lane, San Francisco, California 94103",
-        "place_name": "Delarosa"
+        "address": "2175 Chestnut St San Francisco, CA 94123",
+        "place_name": "Delarosa",
+        "region": "Marina",
+        "cross ": "Steiner St & Pierce St "
       },
       "geometry": {
         "coordinates": [
-          -122.40439,
-          37.785396
+          -122.4391249,
+          37.8003028
         ],
         "type": "Point"
       },
       "id": "address.1047900515756646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1570 Stockton St San Francisco, CA 94133",
+        "place_name": "Tony’s Pizza Napoletana",
+        "region": "North Beach"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4090551,
+        37.8003171,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
     },
     {
       "type": "Feature",
@@ -100,6 +119,41 @@ var geojson = {
         "coordinates": [
         -122.4208,
         37.7899
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "151 Clement St San Francisco, CA 94118",
+        "place_name": "Giorgio’s Pizzeria",
+        "region": "Inner Richmond",
+        "cross ": "3rd Ave, 2nd Ave"
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4610496,
+        37.7829868,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "42 Green St San Francisco, CA 94133",
+        "place_name": "Golden Boy Pizza",
+        "region": "North Beach",
+        "cross ": "Jasper Pl & Bannam Pl"
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4001102,
+        37.8006407,
         ],
         "type": "Point"
       },
@@ -173,7 +227,82 @@ var geojson = {
         "type": "Point"
       },
       "id": "region.3425"
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "",
+        "place_name": "Pizzeria Delfina",
+        "region": "Pac Heights",
+        "cross ": "";
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4610496,
+        37.7829868,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "address": "",
+        "place_name": "Little Star",
+        "region": "Western Addition",
+        "cross ": "";
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4610496,
+        37.7829868,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "",
+        "place_name": "Slicehouse",
+        "region": "Haight Ashbury",
+        "cross ": "";
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4610496,
+        37.7829868,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "",
+        "place_name": "The Slice",
+        "region": "Castro/Upper Market",
+        "cross ": "";
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4610496,
+        37.7829868,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+
+
+
   ],
   "type": "FeatureCollection"
 };

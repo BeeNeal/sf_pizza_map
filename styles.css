@@ -25,37 +25,3 @@ body { margin:0; padding:0; }
   position: relative;
 }
 
-     "type": "Feature",
-      "properties": {
-        "address": "1411 Polk St, San Francisco, CA 94109",
-        "place_name": "Victor's Pizza",
-        "region": "Russian Hill"
-
-      },
-      "geometry": {
-        "coordinates": [
-        -122.4218,
-        37.797497
-        ],
-        "type": "Point"
-      },
-      "id": "region.3425"
-
-
-      {
-      "type": "Feature",
-      "properties": {
-        "address": "211 23rd Ave, San Francisco, CA 94121",
-        "place_name": "Pizzetta 211",
-        "region": "Outer Richmond"
-
-      },
-      "geometry": {
-        "coordinates": [
-        -122.482973,
-        37.783682,
-        ],
-        "type": "Point"
-      },
-      "id": "region.3425"
-    }
