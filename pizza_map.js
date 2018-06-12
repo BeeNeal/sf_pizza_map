@@ -148,7 +148,6 @@ var geojson = {
         "place_name": "Golden Boy Pizza",
         "region": "North Beach",
         "cross ": "Jasper Pl & Bannam Pl"
-
       },
       "geometry": {
         "coordinates": [
@@ -165,7 +164,6 @@ var geojson = {
         "address": "300 Connecticut St, San Francisco, CA 94107",
         "place_name": "Goat Hill Pizza",
         "region": "Potrero Hill"
-
       },
       "geometry": {
         "coordinates": [
@@ -211,7 +209,7 @@ var geojson = {
       },
       "id": "region.3425"
     },
-          {
+    {
       "type": "Feature",
       "properties": {
         "address": "211 23rd Ave, San Francisco, CA 94121",
@@ -231,34 +229,16 @@ var geojson = {
     {
       "type": "Feature",
       "properties": {
-        "address": "",
+        "address": "2406 California St, San Francisco, CA 94115",
         "place_name": "Pizzeria Delfina",
         "region": "Pac Heights",
-        "cross ": "";
+        "cross ": "Fillmore St, Steiner St"
 
       },
       "geometry": {
         "coordinates": [
-        -122.4610496,
-        37.7829868,
-        ],
-        "type": "Point"
-      },
-      "id": "region.3425"
-    },
-        {
-      "type": "Feature",
-      "properties": {
-        "address": "",
-        "place_name": "Little Star",
-        "region": "Western Addition",
-        "cross ": "";
-
-      },
-      "geometry": {
-        "coordinates": [
-        -122.4610496,
-        37.7829868,
+        -122.4344257,
+        37.789064499,
         ],
         "type": "Point"
       },
@@ -267,42 +247,39 @@ var geojson = {
     {
       "type": "Feature",
       "properties": {
-        "address": "",
-        "place_name": "Slicehouse",
+        "address": "846 Divisadero St, San Francisco, CA 94117",
+        "place_name": "Little Star Pizza",
+        "region": "Alamo Square",
+        "cross ": "Mcallister St, Fulton St "
+
+      },
+      "geometry": {
+        "coordinates": [
+        -122.4379873,
+        37.7775371,
+        ],
+        "type": "Point"
+      },
+      "id": "region.3425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "1535 Haight St, San Francisco, CA 94117",
+        "place_name": "Slice House",
         "region": "Haight Ashbury",
-        "cross ": "";
+        "cross ": "Clayton St & Ashbury St "
 
       },
       "geometry": {
         "coordinates": [
-        -122.4610496,
-        37.7829868,
+        -122.4475825,
+        37.7697656,
         ],
         "type": "Point"
       },
       "id": "region.3425"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "address": "",
-        "place_name": "The Slice",
-        "region": "Castro/Upper Market",
-        "cross ": "";
-
-      },
-      "geometry": {
-        "coordinates": [
-        -122.4610496,
-        37.7829868,
-        ],
-        "type": "Point"
-      },
-      "id": "region.3425"
-    },
-
-
-
   ],
   "type": "FeatureCollection"
 };
